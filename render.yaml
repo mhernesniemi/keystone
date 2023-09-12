@@ -3,8 +3,8 @@ services:
     name: keystone
     env: node
     plan: starter
-    buildCommand: yarn install && yarn build
-    startCommand: yarn start
+    buildCommand: yarn install
+    startCommand: yarn dev
     envVars:
       - key: NODE_VERSION
         value: 18.17.1
